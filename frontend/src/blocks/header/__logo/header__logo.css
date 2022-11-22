@@ -1,0 +1,23 @@
+.header__logo {
+  height: 33px;
+  background-image: url(../../../image/headerLogo.svg);
+  background-size: 142px 33px;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    margin:10px auto 31.6px;
+    padding-top: 10px;
+    align-self: center;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: calc(100% - 60px);
+    height: 24.4px;
+    background-size: 103.74px 24.4px;
+  }
+}
