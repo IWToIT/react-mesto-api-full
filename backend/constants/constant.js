@@ -6,8 +6,8 @@ const ERR_VALIDATION = 'Validation failed';
 const REGEX_URL = /https?:\/\/(www\.)?[-a-zA-Z0-9:%._~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_.~#?&//=]*)/;
 
 const allowedCors = [
-  'http://domainname.studentegor.nomoredomains.icu',
   'https://domainname.studentegor.nomoredomains.icu',
+  'http://domainname.studentegor.nomoredomains.icu',
   'http://localhost:3000',
 ];
 
