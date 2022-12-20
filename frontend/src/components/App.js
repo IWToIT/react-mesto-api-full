@@ -188,7 +188,7 @@ function App() {
 
   function getContent() {
     return MestoAuth
-      .checkToken()
+      .validateToken()
       .then((res) => {
         if (res) {
           setUserEmail(res.email);
