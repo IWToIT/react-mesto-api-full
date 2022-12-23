@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:3001';
+export const BASE_URL = 'https://domainname.studentegor.nomoredomains.icu';
 
 function request({ url, method = 'POST', data }) {
   return fetch(`${BASE_URL}${url}`, {
