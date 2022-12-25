@@ -1,4 +1,4 @@
-export const BASE_URL = 'https://domainname.studentegor.nomoredomains.icu';
+export const BASE_URL = 'http://domainback.studentegor.nomoredomains.club';
 
 function request({ url, method = 'POST', data }) {
   return fetch(`${BASE_URL}${url}`, {

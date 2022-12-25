@@ -8,6 +8,8 @@ const REGEX_URL = /https?:\/\/(www\.)?[-a-zA-Z0-9:%._~#=]{1,256}\.[a-zA-Z0-9()]{
 const allowedCors = [
   'https://domainname.studentegor.nomoredomains.icu',
   'http://domainname.studentegor.nomoredomains.icu',
+  'http://domainback.studentegor.nomoredomains.club',
+  'https://domainback.studentegor.nomoredomains.club',
   'http://localhost:3000',
 ];
 

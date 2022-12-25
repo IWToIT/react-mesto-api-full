@@ -108,6 +108,6 @@ class Api {
   }
 }
 
-export const api = new Api('https://domainname.studentegor.nomoredomains.icu', {
+export const api = new Api('https://domainback.studentegor.nomoredomains.club', {
   'Content-Type': 'application/json',
 });
